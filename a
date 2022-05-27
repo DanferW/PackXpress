@@ -1,0 +1,29 @@
+  <header style="background-color: aqua">
+        <h1>
+            PackXpress
+        <a href="rastreo.html">Rastreo</a>
+          <a href="acercade.html">Acerca de</a>
+          <a href="servicioalcliente.html">Servico al cliente</a>
+          <a href="inicarSecion.html">Inicar secion</a>
+          <a href="registro.html">Registrarse</a>
+        </h1>   
+    </header>
+    <article style="background-color:bisque">
+        <h1> aaaa
+            <p>
+                asdsadasdsadsa asdassd a dassd asdas as 
+            </p>
+    </article>
+
+    <article style="background-color: azure">
+        <p>adsadas</p>
+        <section style="background-color: blueviolet">
+            <p>Informacion de la empresa</p>
+        </section>
+        <section style="background-color: brown">
+            <p>Informacion sobre los servicios</p>
+        </section>
+        <p>asdasd</p>
+    </h2>
+
+    </article>
