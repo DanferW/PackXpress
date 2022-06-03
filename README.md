@@ -8,9 +8,9 @@ git clone (URL del repositorio).
 
 ## Base de datos
 
-- 1.- crear un archivo conexionBD.php en la raiz del proyecto, con el siguiente codigo y utilizando tus propias credenciales:
-  ```
-<?php	
+- 1.- editar el archivo conexionBD.php, utilizando tus propias credenciales:
+  
+```
     $conexion = mysqli_connect(
         "localhost", 
         "usuario",
@@ -20,5 +20,5 @@ git clone (URL del repositorio).
     if (mysqli_connect_errno()){
         echo "error de conexion a la base de datos";
     }
-?>
-  ```
+```
+  
