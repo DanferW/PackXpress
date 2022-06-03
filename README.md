@@ -13,9 +13,9 @@ git clone (URL del repositorio).
 <?php	
     $conexion = mysqli_connect(
         "localhost", 
-        "[usuario]",
-        "[contrasenha]",
-        "[nombre base de datos]");
+        "usuario",
+        "contrasenha",
+        "nombre base de datos");
     
     if (mysqli_connect_errno()){
         echo "error de conexion a la base de datos";
