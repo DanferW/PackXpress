@@ -22,7 +22,7 @@
           </li>
           <li class="nav-menu-item"> <a href="inicarSecion.html" class="nav-menu-link nav-link " >Inicia sesión</a>
           </li>
-          <li class="nav-menu-item">  <a href="registro.html" class="nav-menu-link nav-link">Registrarse</a>
+          <li class="nav-menu-item">  <a href="registro.php" class="nav-menu-link nav-link">Registrarse</a>
           </li>
         </ul>
       </nav>
