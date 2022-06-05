@@ -10,7 +10,7 @@
   }
   
   .header {
-    background-color: #0769e9;
+    background-color: #1f53c5;
     height: 80px;
     position: fixed;
     width: 100%;
@@ -133,9 +133,9 @@
   }
 /*---------------------------- caja de texto--------------------------------- */
 .box{
- background: #eee;
- padding: 20px;   
- border-radius: 10px;
+  background: #eee;
+  padding: 20px;   
+  border-radius: 10px;
 }
 label{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -193,11 +193,11 @@ p{
     margin: auto;
   }
 /*--------------------------------*/
-   .izquierda2{
+  .izquierda2{
       background: cornflowerblue;
           height: 100vh;
           width: 50%;
-         
+        
       }
   .izquierda{
       background: url(../img/fondo1.jpg);
@@ -208,14 +208,14 @@ p{
   }
   #pantalla_dividida2{
       display: flex;
-     }
+    }
   h3{
     font-size: 45px;
     width: 50%;
     margin: auto;
   }
 /*--------------------------------*/
-     .drch{
+    .drch{
       background: #FCD21D;
           height: 100vh;
           width: 50%;
@@ -240,13 +240,14 @@ p{
 
   footer{
     width: 100%;
-    background: #493e3e;
+    background: #24303c;
     float: left;
     left:0px;
     bottom:0px;
     height:30px;
     width:100%;
     position: fixed;
+    color: whitesmoke;
   }
   /*------------------------------registro------------------------------*/
   .form-register {

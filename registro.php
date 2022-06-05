@@ -8,20 +8,22 @@ require_once 'general/header.php';
 
     <section class="form-register">
       <h4>Formulario Registro</h4>
-      <input class="controls" type="text" name="nombres" id="name" placeholder="Nombre">
-      <input class="controls" type="text" name="apellidos" id="lastName" placeholder="Apellido">
-      <input class="controls" type="text" name="direccion" id="address" placeholder="Direccion">
-      <input class="controls" type="text" name="cdpostal" id="postalAddress" placeholder="Codigo postal">
-      <input class="controls" type="text" name="estado" id="state" placeholder="Estado">
-      <input class="controls" type="text" name="ciudad" id="city" placeholder="Ciudad">
-      <input class="controls" type="text" name="telefono" id="tel" placeholder="Telefono">
-      <input class="controls" type="email" name="correo" id="email" placeholder="Correo">
-      <input class="controls" type="password" name="correo" id="pass" placeholder="Contraseña">
-      <l>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></l>
-      <input class="botons" type="submit" value="Registrar">
+      <form action="registroUsuario.php" method="post">
+        <input class="controls" type="text" name="name" id="name" placeholder="Nombre">
+        <input class="controls" type="text" name="lastName" id="lastName" placeholder="Apellido">
+        <input class="controls" type="text" name="address" id="address" placeholder="Direccion">
+        <input class="controls" type="text" name="postalAddress" id="postalAddress" placeholder="Codigo postal">
+        <input class="controls" type="text" name="state" id="state" placeholder="Estado">
+        <input class="controls" type="text" name="city" id="city" placeholder="Ciudad">
+        <input class="controls" type="text" name="tel" id="tel" placeholder="Telefono">
+        <input class="controls" type="email" name="email" id="email" placeholder="Correo">
+        <input class="controls" type="password" name="pass" id="pass" placeholder="Contraseña">
+        <l>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></l>
+        <input class="botons" type="submit" value="Registrar">
+      </form>
 
       
-      <p><a href="inicarSecion.html">Ya tengo Cuenta</a></p>
+      <p><a href="iniciarSesion.php">Ya tengo Cuenta</a></p>
     </section>
 
 
