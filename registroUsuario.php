@@ -24,16 +24,16 @@ require_once 'general/header.php';
     include 'conexionBD.php';
 
     // se construye la query para agregar al usuario a la base de datos
-    $sentencia =    "INSERT INTO usuario (
+    $query =    "INSERT INTO usuario (
                 correo, nombre, direccion, telefono) VALUES
                 ('$email', '$name $lastName', '$address , $postalAddress, $state, $city', '$tel')";
     
     // se ejecuta la query
-    $query = mysqli_query($conexion, $sentencia);
+    $result = mysqli_query($conexion, $query);
 
     // se valida la query
-    $filasAfectadas = mysqli_affected_rows($conexion);
-    if ($query && $filasAfectadas) {
+    $affectedRows = mysqli_affected_rows($conexion);
+    if ($result && $affectedRows) {
         echo "<p>Hola! $name $lastName, bienvenido a PackXpress!</p> 
         <a href='index.php'>Regresar a página de inicio</a>";
     } else {
