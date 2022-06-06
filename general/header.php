@@ -30,7 +30,7 @@
 
     
     <footer>
-      <l>Copiright &copy; 2022 - PackXpress - All Right Reserved </l>
+      <l>Copyright &copy; 2022 - PackXpress - All Right Reserved </l>
   </footer> 
   </body>
 </html>

@@ -7,7 +7,7 @@ require_once 'general/header.php';
 
 ?>  
 <section id="pantalla_dividida">
-        <div class="derecha">  <h2>Contenido</h2>
+        <div class="derecha">  <h2>Contenido</h2><p></p>
         <?php
         echo '<div>
         <h3>Historia</h3>
