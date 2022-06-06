@@ -193,6 +193,26 @@ p{
     margin: auto;
     margin-bottom: 10px;
   }
+
+  .sesion-link	{
+    height: 100px;
+    width: 40%;
+    background-color: #FCD21D;
+  }
+
+  .sesion-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 30px;
+    width: 50%;
+    margin-left: 188px;
+  }
+  
+  .sesion-link a:hover {
+    color: white;
+    text-decoration: underline;
+  }
 /*--------------------------------*/
   .izquierda2{
       background: cornflowerblue;
