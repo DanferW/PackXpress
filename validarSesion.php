@@ -22,16 +22,20 @@ require_once 'general/header.php';
     // ejecutar la sentencia en la base de datos
     $query = mysqli_query($conexion, $sentencia);
     
-    while ($row = $query->fetch_assoc()) {
-        echo $row['classtype'] . "<br>";
-    }
+    
     // validar la sentencia
-    $filasEncontradas = mysqli_num_rows($query);
-    if ($query && $filasEncontradas) {
-        echo "<p></p><p>Hola! $row, haz iniciado sesión correctamente!</p>";
+    $foundRows = mysqli_num_rows($query);
+    if ($query && $foundRows) {
+        while ($row = $query->fetch_assoc()) {
+            echo "<div class='sesion-link'> 
+            <p>Hola, " . $row['nombre'] . ", haz iniciado sesión correctamente.</p>";
+        }
+        echo "<a class='sesion-link' href='index.php'>Ir a página de inicio.<a/></div>";
+        
         
     } else {
         echo "Hubo un error al iniciar sesión.";
-
+        sleep(3);
+        header('Location: iniciarSesion.php');
     }
 ?>
