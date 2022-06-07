@@ -6,8 +6,8 @@ require_once 'general/header.php';
 
 
 ?>  
-<section id="pantalla_dividida">
-        <div class="derecha">  <h2>Contenido</h2><p></p>
+<section id="dividido">
+        <div class="recuadro">  <p></p>
         <?php
         echo '<div>
         <h3>Historia</h3>
@@ -27,6 +27,8 @@ require_once 'general/header.php';
     </div> '
         ?>
         
-        <div class="derecha2">  </div>
+        <div class="adcfondo">  </div>
+        
     </section>
+
 

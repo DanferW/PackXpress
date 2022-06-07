@@ -3,14 +3,23 @@
 $pagina = isset($_GET ['p']) ? strtolower($_GET ['p']) : 'index';
 
 require_once 'general/header.php';
-
 ?>
     <div id="divTasks"></div>
 
     <section id="pantalla_dividida">
-        <div class="derecha">  <h2>Informacion acerca de la empresa</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies rhoncus nisl, nec scelerisque enim luctus id. Maecenas in ante leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas auctor nunc augue, sodales bibendum dolor blandit eu. Sed aliquam, sem ac pulvinar mattis, nulla sapien semper elit, et sollicitudin leo purus eget erat. Fusce aliquam orci velit, a condimentum ante mattis non. Proin congue viverra vulputate.
-                Suspendisse tempor dignissim elit, in varius massa iaculis eget.</p>
+        <div class="derecha">
+        <?php
+        echo '<div>
+        <h2>Informacion acerca de la empresa</h2>
+        <p> PackXpress es un servicio de localización de paquetes, el cual otorga seguridad a los 
+        clientes de que sus paquete llegen con seguridad a las puertas de sus casas, y toda la 
+        información del envio podra ser monitoreado por el cliente, para que se sienta mas seguro
+        sobre sus pedido . <br><br>
+          </p><br>
+      </div>
+      
+    </div> '
+        ?>
         </div>
         
         <div class="derecha2">  </div>
@@ -20,16 +29,42 @@ require_once 'general/header.php';
         <div class="izquierda" >
             
             </div>
-            <div class="izquierda2"><h3>Informacion sobre los servicios</h3> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies rhoncus nisl, nec scelerisque enim luctus id. Maecenas in ante leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas auctor nunc augue, sodales bibendum dolor blandit eu. Sed aliquam, sem ac pulvinar mattis, nulla sapien semper elit, et sollicitudin leo purus eget erat. Fusce aliquam orci velit, a condimentum ante mattis non. Proin congue viverra vulputate.
-                Suspendisse tempor dignissim elit, in varius massa iaculis eget.</p> </div>
+            <div class="izquierda2">
+            <?php
+        echo '<div>
+        <h3>Servicios de la empresa</h3>
+        <p> PackXpress cuenta con los siguiguientes servicios:  <br><br>
+          </p>
+         <p>° Busqueda mediante id del paquete</p>
+         <p>° Seleccion de paquete en caso de contar con mas de uno</p>
+         <p>° Atrncion personalizada  </p>
+         <p>°Gestion de paquetes </p>
+      </div>
+    </div> '
+        ?>
     </section>
 
+   
     <section id="pantalla_dividida3">
-        <div class="drch"><h4>Noticias sobre la empresa</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies rhoncus nisl, nec scelerisque enim luctus id. Maecenas in ante leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas auctor nunc augue, sodales bibendum dolor blandit eu. Sed aliquam, sem ac pulvinar mattis, nulla sapien semper elit, et sollicitudin leo purus eget erat. Fusce aliquam orci velit, a condimentum ante mattis non. Proin congue viverra vulputate.
-                Suspendisse tempor dignissim elit, in varius massa iaculis eget.</p>
+        <div class="drch">
+        <?php
+        echo '<div>
+            <h4>Noticias sobre la empresa</h4>
+            
+            <p>Actualizaciones </p>
+            <br> </br>
+            <i>A partir de ahora, cuando prepares envíos que contengan baterías de
+             litio según la Sección II (UN3481 y UN3091) al usar PackXpress,por favor
+              indica los tipos de baterías de litio que has incluido en tu envío.
+
+            Dado que las baterías de litio de la Sección II están menos reguladas 
+            que otro tipo de baterías de litio, tu selección nos ayudará a incrementar 
+            la visibilidad en nuestra red y garantizará la seguridad e integridad de envíos 
+            de mercancías peligrosas hasta sus destinos final.</i>
+        
             </div>
+    </div> '
+        ?>
             <div class="drch2">  
             </div>
     </section>
