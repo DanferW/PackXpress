@@ -34,11 +34,13 @@ require_once 'general/header.php';
         echo '<div>
         <h3>Servicios de la empresa</h3>
         <p> PackXpress cuenta con los siguiguientes servicios:  <br><br>
+        <ul>
+        <li> Busqueda mediante id del paquete</li>
+        <li> Seleccion de paquete en caso de contar con mas de uno</li>
+        <li> Atencion personalizada  </li>
+        <li> Gestion de paquetes </li>
+        </ul>
         </p>
-        <p>° Busqueda mediante id del paquete</p>
-        <p>° Seleccion de paquete en caso de contar con mas de uno</p>
-        <p>° Atrncion personalizada  </p>
-        <p>° Gestion de paquetes </p>
     </div>
     </div> '
         ?>
@@ -50,9 +52,9 @@ require_once 'general/header.php';
         <?php
         echo '<div>
             <h4>Noticias sobre la empresa</h4>
-            
+            <br>
             <p>Actualizaciones </p>
-            <br> </br>
+            <p></p><br>
             <i>A partir de ahora, cuando prepares envíos que contengan baterías de
             litio según la Sección II (UN3481 y UN3091) al usar PackXpress,por favor
             indica los tipos de baterías de litio que has incluido en tu envío.

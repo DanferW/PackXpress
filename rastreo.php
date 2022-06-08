@@ -14,18 +14,24 @@ require_once 'general/header.php';
     </div>
     <div>
         <button class="btnbuscar" onclick="mostrarImg();">Buscar</button>
-        <div id="divRastreo"></div>
+        
     </div>
+    </div>
+    <div id="divRastreo"></div>
     <script>
-        function mostrarImg(){
-            let etiqueta_img= "<img src='../img/imgRastreo.jpg' alt = 'imagen_aleatoria'>"
-            divRastreo = document.getElementById("imgRastreo");
+        let divRastreo = document.getElementById("divRastreo");
+        function mostrarImg() {
+            divRastreo.innerHTML = "<p>Cargando...</p>"
+            setTimeout(mostrarImage, 3000)
+        }
+        function mostrarImage(){
+            let etiqueta_img= "<p>Tu paquete esta aqui:</p><img src='img/imgRastreo.jpg' alt = 'rastreo'>"
             divRastreo.innerHTML = etiqueta_img;
         }
         
 
     </script>
-    </div>
+    
 <div id="divTasks"></div>
 
 

@@ -136,6 +136,7 @@
   background: #eee;
   padding: 20px;   
   border-radius: 10px;
+  width: 50%;
 }
 label{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -149,7 +150,7 @@ textarea{
     width: 100%;
     border-radius: 5px;
     resize: none;
-    font-size: 1em;
+    font-size: 5em;
     height: 100px;
     padding: 5px;
 }
@@ -164,8 +165,19 @@ textarea{
     text-align:center;
 
 }
+
+.btnbuscar:hover{
+  cursor: pointer;
+  background-color: #3461c4;
+}
 /*--------------------------Cuerpo de la pagina--------------------------------------------------------*/
 p{
+  font-size: 30px;
+  line-height: 30px;
+  width: 40rem;
+  margin: auto;
+}
+li{
   font-size: 30px;
   line-height: 30px;
   width: 40rem;
@@ -174,16 +186,28 @@ p{
 i{
   font-size: 30px;
   line-height: 30px;
-  width: 50%;
+  width: 40rem;
   margin: auto;
 }
+#divRastreo {
+  color: #eee;
+  width: 50%;
+  height: 650px;
+}
+img{
+  
+  height: 95%;
+  width: 95%;
+
+}
+
 .derecha{
   background: #FCD21D;
   height: 100vh;
       width: 50%;
   }
   .derecha2{
-      background: url(../img/1.jpg);
+      background: url(../img/fondo1.jpg);
       background-size: cover;
       background-position:  center;
       width: 50%;
@@ -199,6 +223,26 @@ i{
     margin: auto;
     margin-bottom: 10px;
   }
+
+  .sesion-link	{
+    height: 100px;
+    width: 40%;
+    background-color: #FCD21D;
+  }
+
+  .sesion-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 30px;
+    width: 50%;
+    margin-left: 188px;
+  }
+  
+  .sesion-link a:hover {
+    color: white;
+    text-decoration: underline;
+  }
 /*--------------------------------*/
   .izquierda2{
       background: cornflowerblue;
@@ -207,7 +251,7 @@ i{
         
       }
   .izquierda{
-      background: url(../img/2.jpg);
+      background: url(../img/fondo1.jpg);
       background-size: cover;
       background-position:  center;
       width: 50%;
@@ -221,6 +265,11 @@ i{
     width: 50%;
     margin: auto;
   }
+  h4{
+    font-size: 30px;
+    width: 50%;
+    margin: 0 0 25px 0;
+  }
 /*--------------------------------*/
     .drch{
       background: #FCD21D;
@@ -228,7 +277,7 @@ i{
           width: 50%;
       }
       .drch2{
-          background: url(../img/3.jpg);
+          background: url(../img/fondo1.jpg);
           background-size: cover;
           background-position:  center;
           width: 50%;
@@ -256,25 +305,24 @@ i{
     position: fixed;
     color: whitesmoke;
   }
-      /*--------------------------Acerca de --------------------------------------------------------*/
-      #dividido{
-        display: flex;
-      }
-      .recuadro{
-        background: #008CFF;
-        height: 250vh;
-            width: 50%;
-        } 
-      
-        .adcfondo{
-          display: inline-block;
-            background: url(../img/adc2.jpg);
-            background-size: cover;
-            background-position:  center;
-            width: 50%;
-            height: 100vh;
-        }
+  /*--------------------------Acerca de --------------------------------------------------------*/
+  #dividido{
+    display: flex;
+  }
+  .recuadro{
+    background: #008CFF;
+    height: 85vh;
+        width: 50%;
+    } 
   
+    .adcfondo{
+      display: inline-block;
+        background: url(../img/adc2.jpg);
+        background-size: cover;
+        background-position:  center;
+        width: 50%;
+        height: 85vh;
+    }
   /*------------------------------registro------------------------------*/
   .form-register {
     width: 400px;
@@ -310,6 +358,7 @@ i{
     text-align: center;
     font-size: 18px;
     line-height: 40px;
+    width: 50%;
   }
   
   .form-register a {
