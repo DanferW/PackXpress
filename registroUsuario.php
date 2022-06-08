@@ -30,21 +30,18 @@ require_once 'general/header.php';
                 ('$email', '$name $lastName', '$address , $postalAddress, $state, $city', '$tel')";
     
     // se ejecuta la query
-    if (($name || $lastName || $lastName || $lastName || $lastName || $lastName || $lastName || $lastName || $lastName) == "") {
-        echo "Debe ingresar todos los campos.
-        <a href='registro.php'>Volver a registrarse</a>"
-    }else{
-        $result = mysqli_query($conexion, $query);
-        // se valida la query
-        $affectedRows = mysqli_affected_rows($conexion);
-        if ($result && $affectedRows) {
+    $result = mysqli_query($conexion, $query);
+        
+    // se valida la query
+    $affectedRows = mysqli_affected_rows($conexion);
+    if ($result && $affectedRows) {
         echo "<p>Hola! $name $lastName, bienvenido a PackXpress!</p> 
         <a href='index.php'>Regresar a página de inicio</a>";
-        } else {
+    } else {
         echo "Hubo un error al crear la cuenta.
         <a href='registro.php'>Volver a registrarse</a>";
     }
-    }
+    
     
 
     

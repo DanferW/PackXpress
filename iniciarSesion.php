@@ -16,7 +16,7 @@ require_once 'general/header.php';
         <input class="botons" type="submit" value="Iniciar sesión">
       </form>
       
-      <p><a href="registro.html" class="link">No tengo Cuenta</a></p>
+      <p><a href="registro.php" class="link">No tengo Cuenta</a></p>
     </section>
 
 
