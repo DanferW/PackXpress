@@ -34,8 +34,8 @@ require_once 'general/header.php';
         
         
     } else {
-        echo "Hubo un error al iniciar sesión.";
-        sleep(3);
-        header('Location: iniciarSesion.php');
+        echo "<div class='sesion-link'>";
+        echo "<p>Hubo un error al iniciar sesión.</p>";
+        echo "<a class='sesion-link' href='iniciarSesion.php'>Regresar a inicio de sesion.<a/></div>";
     }
 ?>
